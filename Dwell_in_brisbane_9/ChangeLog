@@ -1,0 +1,58 @@
+ChangeLog - Version 7.5
+
+[Samata - October 16, 2021]
+1. Update the dropdown menu (commented out the links not in use)
+2. Updated References page
+3. Updated the back arrow icon, color of heading on reccommendations page
+4. Updated the popup border to #CCC, and added border radius to the popup.
+5. Updated the border for buttons on the popup
+6. Deleted the login page 
+7. Update the FAQ page from Kaibin
+8. Removed the 'Q' icon from the FAQ page
+9. Moved the Recommendations button as we discussed in the meeting
+10. Updated the stying of the map page in styling.css
+
+[Jisoo - October 16, 2021]
+Search key: /* 10/16 UPDATED Jisoo Choi */
+1. Updated start.html on worker > sub options (changed main.js)
+2. Changed style.css codes from /* (ZHEN) recommendation START*/ to /* (ZHEN) recommendation END*/ + some others search by search key
+3. Updated recommendation.html
+4. Updated references.html on images for recommendations.html and icons used (USE THESE ON FINAL FILE!!)
+5. Added reference page margin
+6. Updated privacy.html **
+
+[Samata - October 17, 2021]
+1. Added Favicon
+2. Updated the index page and references page
+3. Merged the changes that Jisoo made.
+4. Updated two profile pics on About Us (Samata and Jisoo)
+5. Updated our goal on About us page.
+6. Deleted images (Q AND A).
+
+
+[Kaibin - October 18, 2021]
+1. Match size & font & text across pages
+2. Delete account icon and its dropdown
+3. Add a "Hello (user)"
+4. Add a back button in map.html
+5. update the picture in aboutUs.html
+
+
+[Samata - October 20, 2021]
+1. Updated font size of text below icons on index.html
+2. updated pop styling on start.html
+3. updated some styling on map.html
+4. Updated some references to APA style.
+5. Updated stying on the FAQ page
+
+[Jisoo - October 20, 2021]
+1. Updated map_related.js
+
+[Jisoo - October 21, 2021]
+** This file will be the final version to use, so I will not be adding individual comments on changes.
+1. Footer css changed
+2. Code cleanup
+3. Changed faq cursor
+4. Changed start.html header, popup css
+5. Changed map.html button cursor
+6. Updated main.js to fix bugs - button to recommendation function when there is not enough user input
