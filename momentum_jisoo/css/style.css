@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+.hidden {
+  display: none;
+}
+
+body {
+  overflow: hidden;
+  font-family: 'Bree Serif', serif;
+}
+
+audio {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#clock {
+  padding: 20px;
+  font-size: 48px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  margin-top: 0;
+  color: #fff;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+#login-form {
+  width: 500px;
+}
+
+#login-form, #greeting {
+  font-size: 72px;
+  font-weight: 600;
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+#greeting {
+  top: 25%;
+  font-size: 96px;
+}
+
+#login-form input {
+  width: 450px;
+  height: 50px;
+  padding-bottom: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid black;
+  background-color: transparent;
+  font-size: 48px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#login-form button {
+  width: 120px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 22px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+#feeling-form p {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#quote-form .upper-feeling {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+#feeling-form select {
+  display: inline-block;
+  font-size: 32px;
+  padding-bottom: 0px;
+  padding-right: 10px;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid black;
+}
+
+#quote-form {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+}
+
+#quote-form form {
+  margin-bottom: 30px;
+}
+
+#quote-form span {
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: 'Slabo 27px', serif;
+}
+
+#quote-form span:first-of-type {
+  font-size: 20px;
+}
+
+#weather {
+  padding: 20px;
+  font-size: 24px;
+  position: absolute;
+  top: 120px;
+  left: 0;
+}
+
+#todo-form {
+  padding: 20px;
+  font-size: 24px;
+  position: absolute;
+  top: 23%;
+  left: 0;
+}
+
+#todo-form input {
+  width: 250px;
+  height: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  font-size: 18px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#todo-form input::placeholder {
+  color: #fff;
+}
+
+#todo-list {
+  width: 240px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  padding: 10px;
+  position: absolute;
+  top: 30%;
+  left: 20px;
+  border-radius: 10px;
+}
+
+#todo-list li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+#todo-list li:last-child {
+  margin-bottom: 0;
+}
+
+#todo-list li span {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#todo-list button {
+  border: none;
+  background-color: transparent;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#weather img {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 70px;
+}
+
+#weather span:first-child {
+  display: block;
+  margin-bottom: 10px;
+}
