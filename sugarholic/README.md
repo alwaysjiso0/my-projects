@@ -1,4 +1,4 @@
-## Sugarholic Resort & Spa
+## 🍭 Sugarholic Resort & Spa
 May 2021
 #### My first creation
 
