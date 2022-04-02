@@ -1,8 +1,8 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,2,2,3&height=300&section=header&text=Hello,%20I'm%20Jisoo%20&fontAlignY=40&desc=I%20love%20designing%20and%20coding&descAlignY=60&animation=fadeIn&fontSize=72)
+
 
 <div align="center">
+    ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,2,2,3&height=300&section=header&text=Hello,%20I'm%20Jisoo%20&fontAlignY=40&desc=I%20love%20designing%20and%20coding&descAlignY=60&animation=fadeIn&fontSize=72)
     <h3>🛠 Tech Stack 🛠</h3>
-    <p>
         Most often used:    
         <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a> 
         <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/></a> 
@@ -18,7 +18,6 @@
         <img src="https://img.shields.io/badge/Power BI-F2C811?style=flat-square&logo=Power BI&logoColor=white"/></a> 
         <img src="https://img.shields.io/badge/RapidMiner-BF0000?style=flat-square/></a> 
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/></a>    
-    </p>
   
 </div>
 
