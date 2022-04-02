@@ -16,7 +16,8 @@
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> 
     <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/> 
     <img src="https://img.shields.io/badge/Power BI-F2C811?style=flat-square&logo=Power BI&logoColor=white"/>
-    <img src="https://img.shields.io/badge/RapidMiner-BF0000?style=flat-square/></a>
+    <img src="https://img.shields.io/badge/RapidMiner-BF0000?style=flat-square"/> 
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/>
     <br>
                                                                                                                
                                                                                                                
