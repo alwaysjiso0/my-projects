@@ -1,6 +1,7 @@
-## 🍭 Sugarholic Resort & Spa
+# 🍭 Sugarholic Resort & Spa
 May 2021
-#### My first creation
+
+### My first creation
 
 Sugarholic uses HTML, CSS, and JavaScript to create the visuals of a resort website. This is the very first webpage I have created from scratch.
 
