@@ -19,10 +19,12 @@
     <img src="https://img.shields.io/badge/RapidMiner-BF0000?style=flat-square"/> 
     <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/>
     <br><br><br>
+    <a href="https://www.instagram.com/jenn_ssu/?hl=ko"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/jenn_ssu/?hl=ko"/></a>&nbsp
+
 
     
     <h3>About Me</h3>
-    <a href="https://www.instagram.com/jenn_ssu/?hl=ko"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/jenn_ssu/?hl=ko"/></a>
+    <a href="https://www.instagram.com/jenn_ssu/?hl=ko"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/jenn_ssu/"/></a>
     <a href="https://www.linkedin.com/in/jisoojennchoi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white&link=https://www.linkedin.com/in/jisoojennchoi/"/></a>
                                                                                                                
                                                                                                                
