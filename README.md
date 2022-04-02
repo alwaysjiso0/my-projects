@@ -21,8 +21,8 @@
     <br><br><br>
     
     <h3>About Me</h3>
-    <a href="https://www.instagram.com/jenn_ssu/?hl=ko"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white"&link="https://www.instagram.com/jenn_ssu/?hl=ko"/></a>
-    <a href="https://www.linkedin.com/in/jisoojennchoi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white"/></a>
+    <a href="https://www.instagram.com/jenn_ssu/?hl=ko"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white&link="https://www.instagram.com/jenn_ssu/?hl=ko"/></a>
+    <a href="https://www.linkedin.com/in/jisoojennchoi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white&link="https://www.linkedin.com/in/jisoojennchoi/"/></a>
                                                                                                                
                                                                                                                
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,2,2,3&height=100&section=footer" />
