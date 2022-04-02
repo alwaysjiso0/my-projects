@@ -18,12 +18,11 @@
     <img src="https://img.shields.io/badge/Power BI-F2C811?style=flat-square&logo=Power BI&logoColor=white"/>
     <img src="https://img.shields.io/badge/RapidMiner-BF0000?style=flat-square"/> 
     <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/>
-    <br><br><br>
+    <br><br>
     <h3>About Me</h3>
     <a href="https://www.instagram.com/jenn_ssu/?hl=ko"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/jenn_ssu/?hl=ko"/></a>&nbsp
     <a href="https://www.linkedin.com/in/jisoojennchoi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white&link=https://www.linkedin.com/in/jisoojennchoi/"/></a>&nbsp
-                                                                                                               
-                                                                                                               
+    <br><br>
     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,2,2,3&height=100&section=footer" />
 </div>
 
