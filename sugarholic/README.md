@@ -10,6 +10,7 @@ The SUGARHOLIC RESORT & SPA, a resort located in an island made of sweets. Anyon
 ## Key Features
 #### HTML / CSS Design
 * Colour schemes:   
+  <img width="600" alt="color scheme" src="https://user-images.githubusercontent.com/70437869/161775596-2b14d62b-a7f5-4f72-9ede-07c89476addc.png">
   Text: #000000, #333333, #777777, #FFFFFF.  
   Background: #FF5883, #FF91AD, #FEC9D7, #B9EEE1, #79D38E, #39B89A
 * Typography:   
@@ -60,10 +61,10 @@ The SUGARHOLIC RESORT & SPA, a resort located in an island made of sweets. Anyon
 
 
 [Main Page]     
-<img src="https://user-images.githubusercontent.com/70437869/161388488-1e5914e5-d112-4fa3-8e29-af74acc07f66.png" width="600" height="auto"/>
+<img src="https://user-images.githubusercontent.com/70437869/161388488-1e5914e5-d112-4fa3-8e29-af74acc07f66.png" alt="main page" width="600" height="auto"/>
     
 [Sub Page]     
-<img src="https://user-images.githubusercontent.com/70437869/161773904-931ae3ad-c4ba-494b-acb6-c6d0b6458477.png" width="600" height="auto"/>
+<img src="https://user-images.githubusercontent.com/70437869/161773904-931ae3ad-c4ba-494b-acb6-c6d0b6458477.png" alt="sub page" width="600" height="auto"/>
 
 
 
