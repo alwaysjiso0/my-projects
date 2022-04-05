@@ -1,9 +1,10 @@
-# 🍭 Sugarholic Resort & Spa
+# 🍭 Sugarholic Resort & Spa 🍭
 May 2021
 
 ### My very first creation
 
-Sugarholic is a website of an imaginary resort, with the front-end features developed using HTML, CSS, and vanilla JavaScript. It contains
+Sugarholic is a website of an imaginary resort, with the front-end features developed using HTML, CSS, and vanilla JavaScript.   
+The SUGARHOLIC RESORT & SPA, a resort located in an island made of sweets. Anyone with a sweet tooth is welcomed, but it especially targets family groups and young, trendy visitors including social media influencers from age 15 to 30 who would love a sweet and fun kick to their stay.
 
 
 ## Key Features
@@ -47,7 +48,20 @@ Sugarholic is a website of an imaginary resort, with the front-end features deve
   * When certain buttons are clicked, a popup box will appear. This is done by using Javascript’s ‘fadeIn’ and ‘fadeOut’ function on event.
   * When certain buttons are clicked, an alert will popup on top of the screen, and the popup box will fade out.
 
+#### User Experience (UX) Aspects
+* Target Audience & Persona
+* Card sort & User testing
+* Flowchart
+* Low-fidelity prototype & User testing
+* Medium-fidelity prototype & User testing (AdobeXD)
 
 
 
-<img src="https://user-images.githubusercontent.com/70437869/161388488-1e5914e5-d112-4fa3-8e29-af74acc07f66.png" width="450" height="auto"/>
+[Main Page]
+<img src="https://user-images.githubusercontent.com/70437869/161388488-1e5914e5-d112-4fa3-8e29-af74acc07f66.png" width="600" height="auto"/>
+
+[Sub Page]
+<img src="https://user-images.githubusercontent.com/70437869/161773904-931ae3ad-c4ba-494b-acb6-c6d0b6458477.png" width="600" height="auto"/>
+
+
+
