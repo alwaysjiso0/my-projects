@@ -54,13 +54,15 @@ The SUGARHOLIC RESORT & SPA, a resort located in an island made of sweets. Anyon
 * Flowchart
 * Low-fidelity prototype & User testing
 * Medium-fidelity prototype & User testing (AdobeXD)
+    
+          
+          
 
 
-
-[Main Page]
+[Main Page]     
 <img src="https://user-images.githubusercontent.com/70437869/161388488-1e5914e5-d112-4fa3-8e29-af74acc07f66.png" width="600" height="auto"/>
-
-[Sub Page]
+    
+[Sub Page]     
 <img src="https://user-images.githubusercontent.com/70437869/161773904-931ae3ad-c4ba-494b-acb6-c6d0b6458477.png" width="600" height="auto"/>
 
 
