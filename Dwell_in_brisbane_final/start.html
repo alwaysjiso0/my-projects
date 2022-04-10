@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DWELL IN BRISBANE - Start</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+</head> 
+
+<body>
+    <div id="bg_wrapper_common">
+        <header id="header">
+            <a href="index.html"><img class="logo" src="./images/logo.png" alt="logo image"></a>
+            <div id=user_info>
+                <p>Hello  </p><b class="user_name_input"></b>
+            </div>
+        </header>
+        <!-- header -->
+        <section id="contents">
+            <div id="contents_wrap">
+                <div class="screen1">
+                    <a href="index.html" class="back_btn">
+                        <img src="./images/back-arrow1.png" alt="back button img">
+                    </a>
+                    <h1>Tell us a little about yourself.</h1>
+                    <div class="screen1_wrap">
+                        <form>
+                            <div>
+                                <label>My name is</label>
+                                <input class="user_name" type="text" name="name" placeholder="Enter your name">
+                            </div>
+                            <div class="start">
+                                <label>I am a</label>
+                                <select class="user_occupation" name="occupation" >
+                                    <option value="0" class="placeholder" selected="selected">Choose an option</option>
+                                    <option value="student">Student</option>
+                                    <option value="family">Family</option>
+                                    <option value="worker">Worker</option>
+                                </select>
+                                <div class="student">
+                                    <label>I attend</label>
+                                    <select class="user_school" name="school">
+                                        <option value="0" selected="selected">Choose an option</option>
+                                        <option value="UQ">University of Queensland </option>
+                                        <option value="Griffith">Griffith University</option>
+                                        <option value="QUT">Queensland University of Technology</option>
+                                        <option value="TAFE">TAFE Queensland</option>
+                                    </select>
+                                </div>
+                                <div class="family">
+                                    <label>I have children</label>
+                                    <select class="user_children" name="children">
+                                        <option value="0" selected="selected">Choose an option</option>
+                                        <option value="yes">Yes</option>
+                                        <option value="no">No</option>
+                                    </select>
+                                </div>
+                                <div class="worker">
+                                    <label>I have a car</label>
+                                    <select class="user_workplace" name="workplace">
+                                        <option value="0" selected="selected">Choose an option</option>
+                                        <option value="yes">Yes</option>
+                                        <option value="no">No</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="screen1_btn">
+                            <span class="next_btn">
+                                <a href="map.html">Next</a>
+                            </span>
+                            <span class="skip_btn">
+                                <a>Skip</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contents -->
+        <div id="skip_popup">
+            <h3>Hey there!</h3>
+            <p>If you skip this step, you won't be able to get personalised recommendations on the best places to live
+                in Brisbane.</p>
+            <p>Skip this step?</p>
+            <div class="buttons">
+                <span><a href="map.html">Yes</a></span>
+                <span class="stay">No</span>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="fmenu">
+                <ul class="fmenu_ul">
+                    <li><a href="aboutUs.html">ABOUT US</a></li>
+                    <li><a href="privacy.html">PRIVACY POLICY</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="references.html">REFERENCES</a></li>
+                </ul>
+                <p class="copyright">Copyright 2021 Jisoo Choi, Samata Chaganti, Zhen Zhuo, Chenshuo Zhang, Kaibin
+                    Huang. All Rights Reserved</p>
+            </div>
+            <!-- fmenu -->
+        </footer>
+        <!-- footer -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <meta name="description" content="User Exp Design">
+    <meta name="author" content="Team 6">
+    <title>Dwell in Brisbane</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/leaflet.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/leaflet.js"></script>
+</head>
+
+<body>
+    <main>
+        <div id="bg_wrapper_common">
+            <header>
+                <img class='logo' onclick="window.location.href='index.html'" src="./images/logo.png" alt="logo">
+                <span id="heart">
+                    <img class='heart' src="./images/heart.png" alt="heart"></span>
+                <div id="count_container">
+                    <span id="count">0</span>
+                </div>
+                <div id=user_info_map>
+                    <p>Hello  </p><b class="user_name_input"></b>
+                </div>
+            </header>
+
+
+            <section id="contents">
+                <div id="contents_wrap">
+                    <div class="recommendations">
+                        <a href="start.html" class="back_btn">
+                            <img src="./images/back-arrow1.png" alt="back button img">
+                        </a>
+                        <h1 class="recommendHeader">Explore the neighbourhood</h1>
+
+                    </div>
+                </div>
+            </section>
+            <section class="">
+                <div class="marker-position">click on the map to create your favourites</div>
+                <div id="map"></div>
+                <button id="refreshButton" onclick="window.location.href='recommendations.html'">Our Recommendations</button>
+            </section>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="fmenu">
+            <ul class="fmenu_ul">
+                <li><a href="aboutUs.html">ABOUT US</a></li>
+                <li><a href="privacy.html">PRIVACY POLICY</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="references.html">REFERENCES</a></li>
+            </ul>
+            <p class="copyright">Copyright 2021 Jisoo Choi, Samata Chaganti, Zhen Zhuo, Chenshuo Zhang, Kaibin
+                Huang. All Rights Reserved</p>
+        </div>
+        <!-- fmenu -->
+    </footer>
+    <!-- footer -->
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script src="./js/map_related.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
