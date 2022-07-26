@@ -1,0 +1,4 @@
+EndOfDayz
+5
+22
+Garlic(4), Crossbow(5)
