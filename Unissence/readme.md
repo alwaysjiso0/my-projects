@@ -4,5 +4,8 @@ It uses php Codeigniter as its framework.
 
 
 ### Demo
-<img src="https://user-images.githubusercontent.com/70437869/180946885-f4caeb95-b74a-4c95-85cd-ccf428c963e0.mp4"/>
-Checkout a demo video [here](https://user-images.githubusercontent.com/70437869/180946885-f4caeb95-b74a-4c95-85cd-ccf428c963e0.mp4)
+Checkout the demo video:
+
+
+https://user-images.githubusercontent.com/70437869/180948114-9718e018-e210-4862-a6fd-7d5cdaf8624c.mp4
+
