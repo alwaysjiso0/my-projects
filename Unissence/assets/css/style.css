@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: inherit;
+    text-decoration: none;
+    border: none;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+  }
+
+body {
+	background-color: #fff;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+header {
+    height: 8vh;
+    background-color: #fff; 
+}
+footer {
+    height: 2vh;
+} 
+p {
+    margin-bottom: 0;
+}
+a { 
+	color: #000;
+	background-color: transparent;
+	font-weight: normal;
+}
+ul {
+    margin-bottom: 0;
+}
+input {
+    color: #000;
+}
+
+
+header .header_logo {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 8vh;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+header .account {
+    position: absolute;
+    top: 0px;
+    right: 2vw;
+    z-index: 99999;
+}
+header .account span {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    background-image: url('../img/icons/profile.png');
+    background-size: cover;
+    cursor: pointer;
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+}
+.account_drop {
+    display: none;
+    position: absolute;
+    top: 8vh;
+    right: 3vw;
+    z-index: 99999;
+    text-align: right;
+    background-color: rgba(0,0,0,0.8);
+}
+.account_drop.show {
+    display: block;
+}
+.account_drop ul {
+    padding: 30px;
+}
+.account_drop ul li {
+    height: 60px;
+    width: 150px;
+    cursor: pointer;
+}
+.account_drop ul li a {
+    display: block;
+    height: 60px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+#body-wrapper {
+    display: flex;
+    
+}
+#body_left {
+    height: 90vh;
+    background-color: #f4f4f4;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#body_left ul {
+    padding: 100px 0;
+}
+#body_left ul li {
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#body_left ul li a {
+    display: block;
+    padding: 25px 30px;
+    text-decoration: none;
+    color: #000;
+}
+#body_left .references_link {
+    display: block;
+    margin: 20px;
+    text-decoration: underline;
+    font-size: 12px;
+    color: #000;
+}
+
+#body_middle {
+    height: 90vh;
+    background-color: #F9F9F9;
+}
+#body_middle .new_post {
+    display: block;
+    height: 60px;
+    font-size: 14px;
+    background-color: #CCE3DE;
+    color: #fff;
+}
+#body_middle .new_post span {
+    display: block;
+    margin: 17px 0 20px 20px;
+    width: 25px;
+    height: 25px;
+    background-image: url('../img/icons/edit.png');
+    background-size: cover;
+    cursor: pointer;
+}
+#body_middle .new_post a { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+#body_middle .new_post p {
+    display: block;
+    line-height: 60px;
+    margin-left: 20px;
+}
+#body_middle div h5 {
+    display: block;
+    padding: 15px;
+    background-color: #3D5249;
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+#body_middle ul li {
+    display: block;
+    padding: 18px;
+    font-size: 14px;
+    cursor: pointer;
+    border-bottom: 1px solid #A4C3B2;
+}
+#body_middle ul li a {
+    color: #000;
+    text-decoration: none;
+}
+#body_middle .posts {
+    max-height: 41vh;
+    overflow: scroll;
+}
+#body_middle .trending_post {
+    max-height: 39vh;
+    overflow: scroll;
+}
+#body_middle .trending_post .post_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+#body_middle .trending_post .post_wrapper span {
+    display: block;
+    width: 17px;
+    height: 17px;
+    background-image: url('../img/icons/heart.png');
+    background-size: cover;
+    cursor: pointer;
+}
+#body_middle .trending_post .post_wrapper .post_likes {
+    font-size: 10px;
+    text-align: center;
+}
+#body_middle .trending_post .post_title {
+    font-weight: bold;
+    font-size: 14px;
+    height: 20px;
+    overflow: hidden;
+    max-width: 350px;
+}
+#body_middle .posts .post_title {
+    font-weight: bold;
+    font-size: 14px;
+    height: 20px;
+    overflow: hidden;
+    max-width: 100%;
+}
+#body_middle .posts .post_owner, 
+#body_middle .trending_post .post_owner {
+    font-size: 10px;
+}
+#body_middle .posts .post_content, 
+#body_middle .trending_post .post_content  {
+    font-size: 11px;
+    height: 20px;
+    overflow: hidden;
+}
+
+#body_right {
+    height: 90vh;
+}
+#body_right .board_intro {
+    border-radius: 10px;
+    margin: 10px 30px;
+    padding: 10px;
+    min-height: 18%;
+    max-height: 25%;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+#body_right .board_intro h3 {
+    padding: 10px 0;
+}
+#body_right .board_content {
+    margin: 0 20px 0px 30px;
+    padding: 10px;
+    min-height: 75%;
+    max-height: 82%;
+    height: 80%;
+    overflow: scroll;
+}
+#body_right .board_content h5 {
+    padding: 10px 0;
+}
+#body_right .board_content .board_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#body_right .board_content .board_wrapper .board_left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 1%;
+}
+#body_right .board_content .board_wrapper .board_right {
+    width: 100%;
+    margin-left: 1%;
+}
+#body_right .board_content .board_wrapper .board_left span, 
+#body_right .board_content .board_wrapper .board_right span {
+    display: block;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+#body_right .board_content .board_wrapper div div p {
+    width: 90%;
+}
+#body_right .board_content .board_wrapper .board_right span {
+    height: 500px;
+}
+#body_right .board_content .board_wrapper div div p:first-of-type {
+    font-weight: bold;
+    line-height: 2em;
+}
+#body_right .board_content .board_wrapper div div p:nth-of-type(2) {
+    font-size: 11px;
+    line-height: 1.5em;
+}
+#body_right .board_content .board_wrapper > div > div {
+    margin-bottom: 30px;
+}
+#body_right .board_content .board_wrapper > div > div:last-of-type {
+    margin-bottom: 0;
+}
+
+#body_post {
+    height: 90vh;
+    overflow: scroll;
+}
+#body_post .post_wrapper {
+    margin: 50px 30px;
+    height: 90vh;
+}
+#body_post .post_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#body_post .post_title h2 {
+    color: #000;
+}
+#body_post .post_user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+#body_post .post_user .post_owner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+#body_post .post_user .post_owner span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-image: url('../img/icons/character.png');
+    background-size: cover;
+}
+#body_post .post_user .post_owner p {
+    line-height: 30px;
+    cursor: pointer;
+}
+#body_post .user_options {
+    display: none;
+}
+#body_post .user_options.active {
+    display: block;
+    width: 120px;
+    text-align: center;
+    padding: 7px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 5px;
+    color: #fff;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+}
+
+#body_post .post_user .post_views {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#body_post .post_user .post_views p:first-child {
+    font-size: 20px;
+}
+#body_post .post_user .post_views p:nth-child(2) {
+    font-size: 10px;
+}
+#body_post .post_crud {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0 10px 0;
+}
+#body_post .post_crud .post_edit a {
+    margin-left: 10px;
+    text-decoration: underline;
+    color: #000;
+    cursor: pointer;
+}
+#body_post .post_content {
+    padding: 20px;
+    min-height: 400px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+#body_post .post_options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+#body_post .post_options .post_like {
+    display: flex;
+    flex-direction: row;
+}
+#body_post .post_options .like_icon {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background-size: cover;
+    cursor: pointer;
+}
+#body_post .post_options .like_count {
+    line-height: 25px;
+}
+#body_post .post_options .post_bmark .bmark_icon {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    cursor: pointer;
+}
+#body_post .post_comment input {
+    border: 1px solid #999;
+    height: 60px;
+    overflow: scroll;
+    width: 76%;
+    margin-right: 3%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#body_post .post_comment button {
+    width: 20%;
+    height: 60px;
+    padding: 20px 0;
+    min-width: 100px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: #ddd 1px 1px 1px;
+    background-color: #3D5249;
+    color: #fff;
+}
+#body_post .post_comment .comment_list {
+    padding: 20px 0;
+}
+#body_post .post_comment .comment_list ul li {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#body_post .post_comment .comment_list ul li .comment_user {
+    display: flex;
+    margin-bottom: 10px;
+}
+#body_post .post_comment .comment_list ul li .comment_user p {
+    line-height: 30px;
+}
+#body_post .post_comment .comment_list ul li .comment_user span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/icons/character.png');
+    background-size: cover;
+    margin-right: 10px;
+}
+#body_post .post_comment .comment_list ul li .delete_comment {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+    background-image: url('../img/icons/delete.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+#body_middle_account {
+    padding: 100px 0;
+    background-color: #f9f9f9;
+}
+#body_middle_account div {
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#body_middle_account div a {
+    display: block;
+    padding: 25px 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+#body_right_questions, #body_right_bookmark {
+    height: 90vh;
+    overflow: scroll;
+}
+#body_right_questions .q_intro, 
+#body_right_bookmark .b_intro, 
+#account .a_intro {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    background-color: #ddd;
+}
+#body_right_questions .qlist, 
+#body_right_bookmark .blist, 
+#account .alist {
+    padding: 50px 70px;
+}
+#body_right_bookmark .blist ul, 
+#body_right_bookmark .qlist ul{
+    display: flex;
+    flex-direction: column;
+}
+#body_right_bookmark .blist ul li, 
+#body_right_bookmark .qlist ul li {
+    display: flex;
+    flex-direction: column;
+}
+#body_right_questions .qlist .qlist_item_wrapper, 
+#body_right_bookmark .blist .blist_item_wrapper {
+    border-bottom: 1px solid #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#body_right_questions .qlist a, 
+#body_right_bookmark .blist a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    color: #000;
+    text-decoration: none;
+}
+#body_right_questions .qlist .qlist_item_wrapper h5, 
+#body_right_bookmark .blist .blist_item_wrapper h5 {
+    margin-top: 20px;
+}
+#body_right_questions .qlist .qlist_item_wrapper p,
+#body_right_bookmark .blist .blist_item_wrapper p {
+    line-height: 40px;
+    font-size: 12px;
+    max-width: 90%;
+    height: 50px;
+    overflow: hidden;
+}
+#body_right_questions .qlist .qlist_item_wrapper span, 
+#body_right_bookmark .blist .blist_item_wrapper span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    background-image: url('../img/icons/next.png');
+    background-size: cover;
+}
+
+#account .change_pwd, #account .change_phone {
+    display: none;
+}
+#account .change_pwd.show, #account .change_phone.show {
+    display: block;
+}
+
+#references h2 {
+    padding: 30px;
+}
+#references p {
+    margin-bottom: 10px;
+}
